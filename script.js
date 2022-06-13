@@ -4,12 +4,13 @@ window.onload = function() {
 
     console.log(arSkaiciusDIdedsnisUz100(x));
     console.log(arSkaiciusDIdedsnisUz100(y));
-    function arSkaiciusDIdedsnisUz100(skaicius) {
-        if (skaicius > 100) {
-            return true;
-        }
-        else {
-            return false;
-        }
+}
+
+function arSkaiciusDIdedsnisUz100(skaicius) {
+    if (skaicius > 100) {
+        return true;
+    }
+    else {
+        return false;
     }
 }
