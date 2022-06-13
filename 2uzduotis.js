@@ -4,15 +4,13 @@ window.onload = function() {
 
     console.log(arLyginis(x));
     console.log(arLyginis(y));
+}
 
-
-
-    function arLyginis(skaicius) {
-        if (skaicius % 2 === 0) {
-            return true;
-        }
-        else {
-            return false;
-        }
+function arLyginis(skaicius) {
+    if (skaicius % 2 === 0) {
+        return true;
+    }
+    else {
+        return false;
     }
 }
