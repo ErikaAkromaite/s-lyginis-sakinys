@@ -4,7 +4,8 @@ window.onload = function() {
 
     console.log(ArDaugiauNei10Raidziu(x));
     console.log(ArDaugiauNei10Raidziu(y));
-
+    }
+    
     function ArDaugiauNei10Raidziu(zodis) {
         if (zodis.length > 10) {
             return true;
@@ -12,5 +13,7 @@ window.onload = function() {
         else {
             return false;
         }
+
+       
     }
-}
+

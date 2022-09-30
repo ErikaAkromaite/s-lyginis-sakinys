@@ -1,13 +1,12 @@
 window.onload = function() {
-    let x = 256;
-    let y = -389;
+    let x = 123;
+    let y = -212;
 
-    console.log(arLyginis(x));
-    console.log(arLyginis(y));
+    console.log(arSkaiciusDIdedsnisUz100(x));
+    console.log(arSkaiciusDIdedsnisUz100(y));
 
-
-
-    function arLyginis(skaicius) {
+}
+    function arSkaiciusDIdedsnisUz100(skaicius) {
         if (skaicius % 2 === 0) {
             return true;
         }
@@ -15,4 +14,4 @@ window.onload = function() {
             return false;
         }
     }
-}
+   
